@@ -1,0 +1,413 @@
+body {
+    margin: 0px;
+}
+
+.mainheadd {
+    display: flex;
+}
+
+.padding-left-right {
+    margin: 0 150px;
+}
+
+.d-none {
+    display: none !important;
+}
+
+.head {
+    background-color: rgb(242, 120, 32);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.name {
+    color: white;
+}
+
+.headLogoImg1 {
+    height: 50px;
+    width: 50px;
+}
+
+.headLogoImg2 {
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    margin: 10px;
+    border: 2px solid rgb(253, 251, 251);
+}
+
+.headLogoImg3 {
+    height: 20px;
+    width: 20px;
+    margin: 10px;
+    padding-right: 20px;
+}
+
+.street {
+    color: white;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.picture {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.smallPicture {
+    height: 130px;
+    width: 130px;
+    border-radius: 100%;
+    border: 2px solid lightgrey;
+    object-fit: cover;
+    position: absolute;
+    left: 40%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+}
+
+.star {
+    height: 17px;
+    width: 17px;
+}
+
+.stars {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 40px;
+}
+
+.reviews {
+    color: rgb(242, 120, 32);
+    padding-left: 10px;
+}
+
+.restaurantName {
+    margin-bottom: 0px;
+}
+
+.restaurant {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon {
+    height: 17px;
+    width: 17px;
+    padding-left: 13px;
+    padding-right: 5px;
+    color: var(--c-text-lighter);
+}
+
+.clock {
+    height: 17px;
+    width: 17px;
+    padding-right: 5px;
+}
+
+.icons {
+    height: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(248, 246, 246);
+}
+
+.favoriteDishes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(248, 246, 246);
+    margin-top: 20px;
+}
+
+.headMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    border: 1px solid lightgray;
+    cursor: pointer;
+    border-color: rgb(208, 203, 196);
+    transition: 0.4s;
+}
+
+.headMenu:hover {
+    border-color: rgb(102, 91, 222);
+}
+
+.plus {
+    background-color: unset;
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+    border: unset;
+    border-bottom: #113847 solid 1px;
+    border-left: #113847 solid 1px;
+    cursor: pointer;
+}
+
+.positionPlus {
+    padding-bottom: 100px;
+    padding-right: 0px;
+}
+
+.shoppingCart {
+    height: 100vh;
+    position: sticky;
+    top: 0px;
+    width: 20%;
+    box-shadow: -2px 2px 15px -2px rgb(148 136 136);
+}
+
+.left {
+    width: 80%;
+}
+
+.price {
+    color: rgb(242, 120, 32);
+}
+
+.menus {
+    margin-left: 20px;
+    text-align: left;
+}
+
+.footer {
+    height: 100px;
+    width: 100vw;
+    background-color: rgb(173, 187, 187);
+    margin-top: 20px;
+}
+
+.containerBasket {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.basket {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.pictureBasket {
+    height: 30px;
+    width: 30px;
+}
+
+.textBasket {
+    margin-bottom: 0px;
+}
+
+.underTextBasket {
+    text-align: center;
+    color: lightgray;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.shop {
+    display: flex;
+    justify-content: center;
+    border-bottom: 5px lightgray;
+}
+
+.grey-line {
+    border: 0;
+    border-top: 2px solid #eee;
+}
+
+.grey-line1 {
+    border: 0;
+    border-top: 4px solid #eee;
+    margin-right: 20px;
+}
+
+.menus1 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.shopMenu {
+    margin-left: 30px;
+}
+
+.shopPrice {
+    margin-left: 150px;
+}
+
+.shopDescription {
+    margin-left: 39px;
+    margin-right: 50px;
+    margin-top: 3px;
+}
+
+.annotation {
+    color: blue;
+    margin-left: 39px;
+    margin-top: 10px;
+}
+
+.container_button {
+    display: flex;
+    justify-content: space-between;
+}
+
+.containerButton {
+    margin-right: 30px;
+}
+
+.button {
+    height: 37px;
+    width: 37px;
+    font-size: 23px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid lightgray;
+    transition: 0.4s;
+}
+
+.button:hover {
+    border-color: rgb(102, 91, 222);
+}
+
+.underShoppingCard {
+    height: 27px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.totalShoppingCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 11px;
+    margin-right: 11px;
+    padding-bottom: 2px;
+    height: 60px;
+    background-color: lightgray;
+    border-radius: 2px;
+}
+
+.subTotal {
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.minimumOrderValue {
+    height: 40px;
+    padding: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #ffecb3;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+}
+
+.amountMinimumOrderValue {
+    width: 40px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+    font-size: 13px;
+}
+
+.discriptionMinimumOrderValue {
+    height: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 7px;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bigFont {
+    font-size: 15px;
+}
+
+.activatePayment {
+    background-color: rgb(112, 112, 211);
+    color: white;
+    cursor: pointer;
+}
+
+.pay {
+    position: fixed;
+    z-index: 10;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    background-color: rgb(0, 0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.payBackground {
+    height: 700px;
+    width: 700px;
+    background-color: white;
+    border: 1px solid lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.checkmark {
+    height: 150px;
+    width: 150px;
+}
+
+.checkmarkDiscription {
+    font-size: 20px;
+}
+
+.closes {
+    position: absolute;
+    top: 130px;
+    right: 630px;
+    color: #a19f9f;
+    font-size: 30px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.closes:hover,
+.closes:focus {
+    color: rgb(205, 201, 201);
+    text-decoration: none;
+    cursor: pointer;
+}
